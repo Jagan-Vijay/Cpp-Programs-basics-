@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int int_val;
+    cin>>int_val;
+    cout<<int_val;
+    return 0;
+}
