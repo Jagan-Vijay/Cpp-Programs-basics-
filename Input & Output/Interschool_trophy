@@ -1,0 +1,28 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+    int s,op,s1,op1;
+    string t1,t2;
+    cout<<"Team 1:";
+    cout<<"\nTeam Name:\n";
+    getline(cin,t1);
+    cout<<"Score:\n";
+    cin>>s;
+    cout<<"Overs played:\n";
+    cin>>op;
+    cin.ignore();
+    cout<<"Team 2:";
+    cout<<"\nTeam Name:\n";
+    getline(cin,t2);
+    cout<<"Score:\n";
+    cin>>s1;
+    cout<<"Overs played:\n";
+    cin>>op1;
+    cout<<"Match Details:\nTeam 1:\nName: "<<t1<<"\nScore: "<<s<<"\nOvers played: "<<op;
+    cout<<"\nTeam 2:\nName: "<<t2<<"\nScore: "<<s1<<"\nOvers played: "<<op1;
+    
+    return 0;
+    
+}
