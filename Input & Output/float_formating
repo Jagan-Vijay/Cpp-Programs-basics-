@@ -1,0 +1,10 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float int_num;
+    cin>>int_num;
+    cout<<fixed<<setprecision(6)<<int_num<<"\n"<<setprecision(3)<<int_num<<"\n"<<setprecision(2)<<int_num<<"\n"<<setprecision(1)<<int_num;
+    return 0;
+}
