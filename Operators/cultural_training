@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,t;
+    cin>>n>>t;
+    cout<<n/t<<"\n";
+    cout<<n%t;
+    return 0;
+}
