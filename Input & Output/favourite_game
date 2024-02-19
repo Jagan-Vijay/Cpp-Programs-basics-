@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    char a[100],b[100];
+    cout<<"Name:"<<"\n";
+    cin.getline(a,100);
+    cout<<"Game:"<<"\n";
+    cin.getline(b,100);
+    cout<<"My name is "<<a<<" and I love to play "<<b<<"\n";
+    return 0;
+}
