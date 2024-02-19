@@ -1,0 +1,11 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float speed;
+    cin>>speed;
+    cout<<fixed<<setprecision(2)<<speed;
+    return 0;
+    
+}
