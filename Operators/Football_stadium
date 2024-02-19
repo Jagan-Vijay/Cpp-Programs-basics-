@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int len,bre;
+    cin>>len;
+    cin>>bre;
+    cout<<2*(len+bre)<<"\n";
+    cout<<len*bre;
+    return 0;
+}
