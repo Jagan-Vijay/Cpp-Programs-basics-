@@ -1,0 +1,13 @@
+#include<iostream>
+#include<math.h>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float int_val;
+    cin>>int_val;
+    cout<<int(int_val)<<"\n";
+    cout<<ceil(int_val)<<"\n";
+    cout<<floor(int_val);
+    return 0;
+}
