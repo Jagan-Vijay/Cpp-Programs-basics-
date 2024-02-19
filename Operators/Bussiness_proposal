@@ -1,0 +1,20 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    int pri_amt,rat_int,yrs;
+    cin>>pri_amt;
+    cin>>rat_int;
+    cin>>yrs;
+    float intrest,amount,discount,final;
+    intrest=((pri_amt*rat_int*yrs)/100);
+    cout<<fixed<<setprecision(2)<<intrest<<"\n";
+    amount=pri_amt+intrest;
+    cout<<fixed<<setprecision(2)<<amount<<"\n";
+    discount=((intrest*2)/100);
+    cout<<fixed<<setprecision(2)<<discount<<"\n";
+    final=(amount-discount);
+    cout<<fixed<<setprecision(2)<<final;
+    return 0;
+}
